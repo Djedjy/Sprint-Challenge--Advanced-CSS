@@ -1,1 +1,38 @@
 // Mixins Here
+
+.navigation-title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}//navigation-title
+
+.navigation-tab {
+    font-size: 1.7rem;
+    padding: .6em;
+    text-align: center;
+
+    a {
+        margin: 2rem;
+        text-decoration: none;
+        font-weight: bold;
+        color: @nav-font; 
+    }//a tab
+}//navigation-tab
+
+// Parametric Mixins
+
+.button(@background, @padding, @align) {
+    border: 1px solid @btn-bg-color;
+    background-color: @background;
+    color: white;
+    padding: @padding @padding;
+    text-align: @align;
+    text-decoration: none;
+    vertical-align: text-bottom;
+    width: 40%;
+    border-radius: 8px;
+
+    font-size: 20px;
+    cursor: pointer;
+}
+ 
