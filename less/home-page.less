@@ -114,3 +114,45 @@
     }
   }
 }// home
+
+.about-us-container {
+  max-width: 800px;
+
+  @media @phone {
+    max-width: 500px;
+  }
+}
+.about-us-img {
+  max-width: 100%;
+  height: auto;
+
+  img {
+    max-width: 100%;
+  height: auto;
+  }
+}
+
+.about-us {
+  margin: 0 0 4em;
+
+  @media @phone {
+    p {
+      padding: 2em;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    animation-name: magic;
+    animation-duration: 4s;
+  }
+
+  @keyframes magic {
+    0% {color: @shuttle-gray;}
+    25% {color: #5d6e7e;}
+    50% {color: #527698;}
+    75% {color: #5d6e7e;}
+    100% {color: @shuttle-gray;}
+  }
+}//about-us
