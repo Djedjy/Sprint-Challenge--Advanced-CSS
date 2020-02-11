@@ -1,0 +1,21 @@
+1-What is the difference between an adaptive website and a fully responsive website?
+
+- In an adaptive website, the units are static though we can have media queries.
+- In a fully responsive websites, we use relative unites such as % and also media queries.
+
+2- Describe what it means to be mobile first vs desktop first.
+
+-The idea with mobile first vs desktop first means that initially, when we're starting to code our website, we can decide to build it for mobile first and adapt it once it's done to desktop but most likely making the measurements bigger, or developing the website to fit a desktop first and then afterwards modifying the code to fit mobile next.
+
+3-What does font-size: 62.5% in the html tag do for us when using rem units?
+
+- When using rem units, font-size: 62.5% give us access to having all measurements to be multiples of 10 so that when doing mathematical calculation it is simpler to figure out. Typically you either add a '0' or substract a '0'.
+
+4-How would you describe preprocessing to someone new to CSS?
+
+-Preprocessing is a tool that expands nicely on your basic css knowledge in which you gain more power in your coding while simlifying the process. With the less tool, you can now nest your codes together to avoid repeating yourself over and over again, which render reading your code easier. In addition, with tools like variables, mixins, parametric mixins, etc, you can spend time building all of these fundamental codes at the start and use them at any point in your coding's future which keep things faster and more straight-forward.
+
+5-What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+-My favorite concept of preprocessing has to be mixins and parametric mixins because they were the ones that gave me the most trouble at first. I really had to understand what I was doing and why I was doing it in order to fully grasp them. In the end I realized just how amazing and easier it makes coding.
+-What gave me the most trouble was again, mixins. 
